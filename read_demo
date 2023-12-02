@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "Enter some text > " text
+echo "You entered: $text"
+echo "Introduce your password: "
+if read -t 10 -s  pass; then
+	echo "Your password is : $pass"
+else
+	echo "Sorry,  you are too slow"
+fi

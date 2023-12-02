@@ -1,0 +1,5 @@
+#!/bin/bash
+# My first script
+alias l='ls -l'
+l
+echo "Hello world!"
